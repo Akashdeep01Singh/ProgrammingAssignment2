@@ -103,3 +103,11 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+# Define a square matrix X
+X <- matrix(c(2, 3, 3, 4), nrow = 2, ncol = 2)
+
+# Compute the inverse of X
+inverse_X <- solve(X)
+
+# Print the inverse of X
+print(inverse_X)
